@@ -15,7 +15,6 @@ class MovieSeeder extends Seeder
             ['title' => 'Pulp Fiction', 'director' => 'Quentin Tarantino', 'genre' => 'Crime', 'year' => 1994, 'poster' => 'https://m.media-amazon.com/images/I/81UTs3sC5hL._AC_UF1000,1000_QL80_.jpg'],
             ['title' => 'Nightmare Before Christmas', 'director' => 'Tim Burton', 'genre' => 'Infantil', 'year' => 1993, 'poster' => 'https://pics.filmaffinity.com/Pesadilla_antes_de_Navidad-136057718-large.jpg'],
             ['title' => 'Fight Club', 'director' => 'David Fincher', 'genre' => 'Drama', 'year' => 1999, 'poster' => 'https://m.media-amazon.com/images/S/pv-target-images/e9a43e647b2ca70e75a3c0af046c4dfdcd712380889779cbdc2c57d94ab63902.jpg'],
-            ['title' => 'Forrest Gump', 'director' => 'Robert Zemeckis', 'genre' => 'Drama', 'year' => 1994, 'poster' => 'https://pics.filmaffinity.com/Forrest_Gump-212765827-mmed.jpg'],
         ];
 
         foreach ($movies as $movie) {
