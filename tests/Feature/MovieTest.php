@@ -51,11 +51,9 @@ class MovieTest extends TestCase
             ->assertStatus(200)
             ->assertSee('Inception');
     }
-/*
+
     public function test_this_will_fail_intentionally()
     {
-        // ❌ Test fallit intencionat per comprovar CI
         $this->assertTrue(false, "Aquest test està forçat a fallar per provar Laravel Cloud CI.");
     }
-        */
 }
